@@ -56,6 +56,10 @@ footer > a:visited {
     color: black;
 }
 
+h3 {
+    visibility: hidden;
+}
+
 
 /*-------------------tags------------------*/
 

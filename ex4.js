@@ -6,7 +6,7 @@
 $(document).ready(function () {
     console.log('ready');
 
-    $('p').slideUp();
+    $('p').hide();
 
     //-----------------hover over the categories--------------
 
