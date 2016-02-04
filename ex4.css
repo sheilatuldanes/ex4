@@ -1,0 +1,100 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: HelveticaCondensed;
+    src: url(HelveticaNeueLTStd-UltLtCn.otf);
+}
+
+@font-face {
+    font-family: FuturaLight;
+    src: url(FuturaStd-Light.otf);
+}
+
+@font-face {
+    font-family: HelveticaThin;
+    src: url(HelveticaNeueLTStd-Th.otf);
+}
+
+
+/*---------------html-----------------------*/
+
+body {
+    background-color: white;
+    font-family: 'HelveticaThin';
+    color: black;
+}
+
+header {
+    font-family: 'HelveticaCondensed';
+    text-align: left;
+    margin-left: 40px;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+    position: static;
+    bottom: 0;
+    left: 45%;
+}
+
+footer > a:link {
+    text-decoration: none;
+    color: black;
+}
+
+footer > a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+footer > a:visited {
+    color: black;
+}
+
+
+/*-------------------tags------------------*/
+
+h1 {
+    margin: 20px auto 20px auto;
+    font-size: 25pt;
+}
+
+p {
+    text-align: left;
+}
+
+
+/*-------------------ids------------------*/
+
+
+/*-----------------classes----------------*/
+
+.button {
+    font-family: 'FuturaLight';
+    background-color: white;
+    padding: 15px;
+    display: inline-block;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 10px auto 10px auto;
+}
+
+.column {
+    float: right;
+    width: 26%;
+    margin-left: 10px;
+}
+
+.container {
+    width: 955px;
+    margin: auto;
+}
